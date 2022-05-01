@@ -1,7 +1,7 @@
 title: Yechiels CV
 description:  my CV.
-url: sulzy3.github.io
-   baseurl: /jekyll-cv-main
+url: "my-cv"
+baseurl: 
 theme_skin: blue
 
 sass:
