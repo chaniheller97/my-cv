@@ -1,0 +1,93 @@
+name: Yechiel Sulzbacher
+support_dark_mode: true
+fork: true
+
+# Sidebar
+contact:
+  email: chilkipilki@gmail.com
+  github: sulzy3
+  linkedin: yechiel-sulzbacher-071218210
+  phone: 
+  gitlab: 
+  twitter: 
+
+languages:
+  - idiom: English
+  - idiom: Hebrew
+  - idiom: Dutch
+
+education:
+  - degree: BSc in Computer Science
+    time: 2017-2020
+    university: Ashkelon College
+
+  - degree: bagrut
+    time: 2014-2016
+    university: Sha'alvim
+
+skills:
+  - category: Languages 
+    skill: 
+    - C#
+    - C
+    - Javascript
+    - TypeScript
+    - Python
+    - Css
+    - Html
+    - Sql
+    - Java
+    - Batch
+
+  - category: FramewORKS
+    skill:
+      - Dotnet
+      - Java Servlets
+      - React
+      - Angular
+      - Chrome Extensions
+      - Jekyll
+  - category: DevOps
+    skill:
+      - Docker
+      - GitLab CI/CD 
+
+# Profile
+profile: |
+  If I had to describe myself in one word I would question the reason behind the exercise, also curious.
+
+# Experience
+experience:
+  - role: Fullstack developer
+    time: 2020-Present
+    company: IDF
+    details: |
+      My team was in charge of maintaining a legacy P.L.M system, in which i partook in all functions from development to customer service.
+      I designed and built a Rest API. I also learned the importance of being part of a team, writing SOLID code and making use of design patterns.
+    technologies_used: | 
+      Dotnet, c, Angular, React, 
+
+
+
+projects:
+  - title: Capslock Website 
+    link: #https://capslock-bmdc.github.io/capslock-website/index.html
+    details: |
+      Capslock was the student union on campus, with the goal to get the younger students to program more. 
+      To achieve its goals it hosted some hackatons. I was asked by it founder if i could build a website for it using jekyll, which i did.
+
+
+# Volunteering
+volunteering:
+  - time: 2018-2020
+    role: Tutor
+    company: Perach
+    details: |
+      I was a tutor to junior students in programming, mathematics and English. 
+  
+  - time: 2018-2020
+    role: Volunteer 
+    company: Jerusalem Municipality 
+    details: |
+      As part of my scholarship I had the privilege of visiting Holocaust survivors in jerusalem. 
+  
