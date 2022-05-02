@@ -21,7 +21,7 @@ education:
     time: 2017-2020
     university: Ashkelon College
 
-  - degree: bagrut
+  - degree: Bagrut
     time: 2014-2016
     university: Sha'alvim
 
@@ -30,7 +30,7 @@ skills:
     skill: 
     - C#
     - C
-    - Javascript
+    - JavaScript
     - TypeScript
     - Python
     - Css
@@ -39,9 +39,9 @@ skills:
     - Java
     - Batch
 
-  - category: FramewORKS
+  - category: Frameworks
     skill:
-      - Dotnet
+      - .NET
       - Java Servlets
       - React
       - Angular
