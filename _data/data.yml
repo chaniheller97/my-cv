@@ -71,7 +71,7 @@ experience:
 
 projects:
   - title: Capslock Website 
-    link: #https://capslock-bmdc.github.io/capslock-website/index.html
+    link: https://capslock-bmdc.github.io/capslock-website/index.html
     details: |
       Capslock was the student union on campus, with the goal to get the younger students to program more. 
       To achieve its goals it hosted some hackatons. I was asked by it founder if i could build a website for it using jekyll, which i did.
