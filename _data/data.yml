@@ -60,7 +60,7 @@ profile: |
 experience:
   - role: Fullstack developer
     time: 2020-Present
-    company: IDF
+    company: Technological unit of the intelligence
     details: |
       My team was in charge of maintaining a legacy P.L.M system, in which I partook in all functions from development to customer service.
       I designed and built a Rest API. I also learned the importance of being part of a team, writing SOLID code and making use of design patterns.
