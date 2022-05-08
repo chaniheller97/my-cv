@@ -13,3 +13,5 @@ plugins:
 
 exclude:
   - docker-compose.yml
+# Google Analytics
+google_analytics: G-7Q43DBGYHX
