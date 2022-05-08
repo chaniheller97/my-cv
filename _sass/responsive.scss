@@ -21,7 +21,7 @@
     .container {
         .container-block {
             flex-direction: column-reverse;
-            display: block;
+            display: flex;
         }
     }
     .header {
