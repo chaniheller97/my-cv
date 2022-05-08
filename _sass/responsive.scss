@@ -20,6 +20,7 @@
 @media screen and (max-width: 768px) {
     .container {
         .container-block {
+            flex-direction: column-reverse;
             display: block;
         }
     }
