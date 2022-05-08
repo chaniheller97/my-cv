@@ -3,8 +3,6 @@
         background-color: var(--bg-color-cv);
     }
     .container {
-        // padding:0;
-        // margin:0;
         box-shadow: none;
         .container-block {
 
@@ -22,6 +20,11 @@
         .container-block {
             flex-direction: column-reverse;
             display: flex;
+            .sidebar{
+                div{
+                    display: inline;
+                 }
+            }
         }
     }
     .header {
