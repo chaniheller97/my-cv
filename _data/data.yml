@@ -9,6 +9,7 @@ contact:
   phone: "0547214663"
   gitlab: 
   twitter: 
+  website: my-cv
 
 languages:
   - idiom: English
@@ -61,10 +62,10 @@ experience:
     time: 2020-Present
     company: Technological unit of the intelligence
     details: |
-      My team was in charge of maintaining a legacy P.L.M system, in which I partook in all functions from development to customer service.
+      My team was in charge of maintaining a P.L.M system, in which I partook in all functions from development to customer service.
       I designed and built a Rest API. I also learned the importance of being part of a team, writing SOLID code and making use of design patterns.
     technologies_used: | 
-      Dotnet, C, Angular, React, 
+      Dotnet, C, Angular, React 
 
 
 
@@ -73,7 +74,7 @@ projects:
     link: https://capslock-bmdc.github.io/capslock-website/index.html
     details: |
       Capslock was the student union on campus, with the goal to get the younger students to program more. 
-      To achieve its goals it hosted some hackatons. I was asked by it founder if I could build a website for it using jekyll, which I did.
+      To achieve its goals it hosted some hackathons (of which my team won the first one). I built a website for it using jekyll.
 
 
 # Volunteering

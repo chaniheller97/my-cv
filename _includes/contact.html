@@ -37,6 +37,15 @@
             </a>
         </div>
     {% endif %}
+    
+    {% if contact.website %}
+        <div class="contact-item">
+            <i data-feather="layout"></i>
+            <a href="https://sulzy3.github.io/{{contact.website}}">
+                {{contact.website}}
+            </a>
+        </div>
+    {% endif %}
 
     {% if contact.twitter %}
         <div class="contact-item">
