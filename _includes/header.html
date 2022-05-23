@@ -1,7 +1,10 @@
 <div class="header">
-    <h1 class="title">{{site.data.data.name}}</h1>
+  <div class="titles">
+      <h1 class="title">{{site.data.data.name}}</h1>
+      <h1 class="sub-title">{{site.data.data.title}}</h1>
+  </div>
     {% if site.data.data.support_dark_mode%}
-      <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
-      <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
+    <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
+    <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
     {%endif%}
   </div>

@@ -1,22 +1,31 @@
 .header {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .titles {
+      flex-direction: column;
     .title {
-        color: var(--fg-color-dark);
-        font-weight: bolder;
-        text-transform: uppercase;
+      color: var(--fg-color-dark);
+      font-weight: bolder;
+      text-transform: uppercase;
     }
-    input[type="checkbox"] {
-        width: 0;
-        height:0;
-        display: none;
+    .sub-title {
+      font-size: medium;      
+      color: var(--fg-color-dark);
+      font-weight: bolder;
+      text-transform: uppercase;
+      padding-left: 2em;
     }
-    label {
-        cursor: pointer;
-        color: var(--fg-color-dark);
-        
-    }
+  }
+  input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+  label {
+    cursor: pointer;
+    color: var(--fg-color-dark);
+  }
 }
