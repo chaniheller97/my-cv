@@ -65,8 +65,9 @@ experience:
     details: |
       My team was in charge of maintaining a P.L.M system, in which I partook in all functions from development to customer service.
       I designed and built a Rest API. I also learned the importance of being part of a team, writing SOLID code and making use of design patterns.
+      I also helped in getting the new team members up to speed on our procedures.
     technologies_used: | 
-      Dotnet, C, Angular, React 
+      Dotnet, C, Angular, React, Docker, 
 
 
 
