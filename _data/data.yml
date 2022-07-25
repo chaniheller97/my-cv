@@ -55,17 +55,15 @@ skills:
 
 # Profile
 profile: |
-  If I had to describe myself in one word I would question the reason behind the exercise, also curious.
-
+   Characteristics that describe me are hardworking, curious and am easy to get along with. As someone who chose to leave his home and come to israel at age of 15 i'm also very independent and adept at solving problems.
+ 
 # Experience
 experience:
   - role: Fullstack developer
     time: 2020-Present
     company: Technological unit of the intelligence
     details: |
-      My team was in charge of maintaining a P.L.M system, in which I partook in all functions from development to customer service.
-      I designed and built a Rest API. I also learned the importance of being part of a team, writing SOLID code and making use of design patterns.
-      I also helped in getting the new team members up to speed on our procedures.
+       In the two years that served as a lone soldier in the army, I developed a REST API connecting a PLM system to websites that we built. The API was written in dotnet 6 and made use of unit testing and had a ci/cd which made use of Docker and gitlab runners. The Website I built is written in react. And Excepted for developing new systems I also helped maintain old systems written in a plethora of frameworks and languages.  
     technologies_used: | 
       Dotnet, C, Angular, React, Docker, 
 
