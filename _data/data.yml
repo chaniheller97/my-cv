@@ -37,13 +37,11 @@ skills:
     - Css
     - Html
     - Sql
-    - Java
     - Batch
 
   - category: Frameworks
     skill:
       - .NET
-      - Java Servlets
       - React
       - Angular
       - Chrome Extensions
@@ -60,8 +58,8 @@ profile: |
 # Experience
 experience:
   - role: Fullstack developer
-    time: 2020-Present
-    company: Technological unit of the intelligence
+    time: 2020-2022
+    company: IDF unit 81
     details: |
        In the two years that served as a lone soldier in the army, I developed a REST API connecting a PLM system to websites that we built. The API was written in dotnet 6 and made use of unit testing and had a ci/cd which made use of Docker and gitlab runners. The Website I built is written in react. And Excepted for developing new systems I also helped maintain old systems written in a plethora of frameworks and languages.  
     technologies_used: | 
