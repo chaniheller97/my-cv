@@ -13,9 +13,9 @@ contact:
   website: my-cv
 
 languages:
-  - idiom: English
-  - idiom: Hebrew
-  - idiom: Dutch
+  - idiom: English (Fluent)
+  - idiom: Hebrew (Native)
+  - idiom: Dutch (Basic)
 
 education:
   - degree: BSc in Computer Science
@@ -34,9 +34,9 @@ skills:
     - JavaScript
     - TypeScript
     - Python
-    - Css
-    - Html
-    - Sql
+    - CSS
+    - HTML
+    - SQL
     - Batch
 
   - category: Frameworks
@@ -53,27 +53,31 @@ skills:
 
 # Profile
 profile: |
-   Characteristics that describe me are hardworking, curious and am easy to get along with. As someone who chose to leave his home and come to israel at age of 15 i'm also very independent and adept at solving problems.
+   Characteristics that describe me are hardworking, curious, and easy to get along with. As someone who chose to leave his home and come to Israel at the age of 15, I'm also very independent and adept at solving problems.
  
 # Experience
 experience:
-  - role: Fullstack developer
-    time: 2020-2022
-    company: IDF unit 81
+  - role: Fullstack Developer
+    time: 2022-now
+    company: Housetable
     details: |
-       In the two years that served as a lone soldier in the army, I developed a REST API connecting a PLM system to websites that we built. The API was written in dotnet 6 and made use of unit testing and had a ci/cd which made use of Docker and gitlab runners. The Website I built is written in react. And Excepted for developing new systems I also helped maintain old systems written in a plethora of frameworks and languages.  
+     As the inaugural and later lead developer at Housetable, a startup specializing in home renovation loans, I spearheaded the development of several websites from scratch, leveraging technologies such as Next.js, React, and Angular. My role included creating a stateless architecture backend using Node and implementing AWS solutions.
     technologies_used: | 
-      Dotnet, C, Angular, React, Docker, 
-
-
+      Next.js, React, Angular, Node, AWS, GitLab CI/CD, Docker.
+  - role: Fullstack Developer
+    time: 2020-2022
+    company: IDF Unit 81
+    details: |
+       During my tenure as a lone soldier in IDF Unit 81, I developed a REST API connecting a PLM system to web applications. This API, crafted in .NET 6, was complemented with comprehensive unit testing and a robust CI/CD pipeline utilizing Docker and GitLab runners. Additionally, I developed and maintained a React-based website, handling systems across various frameworks and programming languages.  
+    technologies_used: | 
+      .NET, C, Angular, React, Docker.
 
 projects:
   - title: Capslock Website 
     link: https://capslock-bmdc.github.io/capslock-website/index.html
     details: |
-      Capslock was the student union on campus, with the goal to get the younger students to program more. 
-      To achieve its goals it hosted some hackathons (of which my team won the first one). I built a website for it using jekyll.
-
+      Capslock was the student union on campus, intending to get the younger students to program more. 
+      To achieve its goals, it hosted some hackathons (of which my team won the first one). I built a website for it using Jekyll.
 
 # Volunteering
 volunteering:
@@ -81,11 +85,10 @@ volunteering:
     role: Tutor
     company: Perach
     details: |
-      I was a tutor to junior students in programming, mathematics and English. 
+      Tutored junior students in programming, mathematics, and English. 
   
   - time: 2018-2020
     role: Volunteer 
     company: Jerusalem Municipality 
     details: |
-      As part of my scholarship I had the privilege of visiting Holocaust survivors in Jerusalem. 
-  
+      As part of my scholarship, I had the privilege of visiting Holocaust survivors in Jerusalem. 
