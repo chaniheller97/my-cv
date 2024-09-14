@@ -51,15 +51,14 @@ skills:
 
 # Profile
 profile: |
-  Characteristics that describe me are hardworking, curious and am easy to get along with. As someone who chose to leave his home and come to Israel at age of 15, I'm also very independent and adept at solving problems.
-
+  I am a highly motivated and versatile Software Engineer with a proven track record of delivering high-quality solutions and leading technical teams. My journey began with leaving my home country at age 15 to pursue opportunities in Israel, demonstrating my independence and problem-solving capabilities. I excel in both individual contributions and team leadership roles, driven by a passion for technology and a commitment to continuous learning.
 # Experience
 experience:
   - role: Tech Lead and Scrum Master
     time: 2022-present
     company: Housetable
     details: |
-      As an integral part of Housetable for the last two years, I led the launch of the startup's websites, essentially developing them single-handedly. I also served as the Scrum Master and Tech Lead, guiding the team through agile development processes and making key technical decisions.
+      At Housetable, I played a pivotal role in the development and launch of the company's websites, leading the initiative from concept to completion. My responsibilities included serving as the Scrum Master, where I facilitated agile practices and team collaboration, and as the Tech Lead, making crucial architectural and technical decisions. My role involved hands-on development with modern technologies and effective management of the deployment pipeline.
     technologies_used: |
       React, TypeScript, Node.js, AWS, Agile methodologies, Next.js, React, AWS, GitLab CI/CD, Docker.
 
@@ -67,26 +66,6 @@ experience:
     time: 2020-2022
     company: IDF Unit 81
     details: |
-       During my tenure as a lone soldier in IDF Unit 81, I developed a REST API connecting a PLM system to web applications. This API, crafted in .NET 6, was complemented with comprehensive unit testing and a robust CI/CD pipeline utilizing Docker and GitLab runners. Additionally, I developed and maintained a React-based website, handling systems across various frameworks and programming languages.  
-    technologies_used: | 
+      As a Fullstack Developer in IDF Unit 81, I was responsible for designing and implementing a REST API to integrate a PLM system with various web applications. This API, developed using .NET 6, was rigorously tested with comprehensive unit tests and integrated into a CI/CD pipeline using Docker and GitLab runners. Additionally, I contributed to the development and maintenance of a React-based website, working across multiple frameworks and technologies.
+    technologies_used: |
       .NET, C, Angular, React, Docker.
-
-  - title: Capslock Website
-    link: https://capslock-bmdc.github.io/capslock-website/index.html
-    details: |
-      Capslock was the student union on campus, intending to get the younger students to program more. 
-      To achieve its goals, it hosted some hackathons (of which my team won the first one). I built a website for it using Jekyll.
-
-# Volunteering
-volunteering:
-  - time: 2018-2020
-    role: Tutor
-    company: Perach
-    details: |
-      Tutored junior students in programming, mathematics, and English. 
-  
-  - time: 2018-2020
-    role: Volunteer 
-    company: Jerusalem Municipality 
-    details: |
-      As part of my scholarship, I had the privilege of visiting Holocaust survivors in Jerusalem. 
