@@ -3,6 +3,10 @@
     .title {
         @include header;
     }
+    .education-items{
+        display: flex;
+        align-content: space-around;
+    }
     .education-item {
         margin-bottom: 20px;
         .degree {
