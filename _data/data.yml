@@ -13,9 +13,9 @@ contact:
   website: my-cv
 
 languages:
-  - idiom: English
-  - idiom: Hebrew
-  - idiom: Dutch
+  - idiom: English (Fluent)
+  - idiom: Hebrew (Native)
+  - idiom: Dutch (Basic)
 
 education:
   - degree: BSc in Computer Science
@@ -61,35 +61,21 @@ experience:
     details: |
       As an integral part of Housetable for the last two years, I led the launch of the startup's websites, essentially developing them single-handedly. I also served as the Scrum Master and Tech Lead, guiding the team through agile development processes and making key technical decisions.
     technologies_used: |
-      React, TypeScript, Node.js, AWS, Agile methodologies
+      React, TypeScript, Node.js, AWS, Agile methodologies, Next.js, React, AWS, GitLab CI/CD, Docker.
 
   - role: Fullstack Developer
     time: 2020-2022
-    company: IDF unit 81
+    company: IDF Unit 81
     details: |
-      Developed a REST API connecting a PLM system to websites we built. The API was written in .NET 6 and utilized unit testing with a CI/CD pipeline using Docker and GitLab runners. Built websites using React and maintained legacy systems in various frameworks and languages.
-    technologies_used: |
-      .NET 6, C, Angular, React, Docker, GitLab CI/CD
-
-projects:
-  - title: Safe-Transactions Proof of Concept
-    details: |
-      Created a proof of concept for Safe-Transactions, a fintech startup focusing on transaction screening.
-    technologies_used: |
-      [Add specific technologies used]
-
-  - title: Cardiolync Migration
-    details: |
-      Assisted Cardiolync in migrating from an older version of .NET to .NET 5, ensuring improved performance and access to modern features.
-    technologies_used: |
-      .NET 5, [Add other relevant technologies]
+       During my tenure as a lone soldier in IDF Unit 81, I developed a REST API connecting a PLM system to web applications. This API, crafted in .NET 6, was complemented with comprehensive unit testing and a robust CI/CD pipeline utilizing Docker and GitLab runners. Additionally, I developed and maintained a React-based website, handling systems across various frameworks and programming languages.  
+    technologies_used: | 
+      .NET, C, Angular, React, Docker.
 
   - title: Capslock Website
     link: https://capslock-bmdc.github.io/capslock-website/index.html
     details: |
-      Built a website for Capslock, the student union on campus, using Jekyll. The union aimed to encourage younger students to program more and hosted hackathons.
-    technologies_used: |
-      Jekyll, HTML, CSS, JavaScript
+      Capslock was the student union on campus, intending to get the younger students to program more. 
+      To achieve its goals, it hosted some hackathons (of which my team won the first one). I built a website for it using Jekyll.
 
 # Volunteering
 volunteering:
@@ -97,6 +83,10 @@ volunteering:
     role: Tutor
     company: Perach
     details: |
-      Tutored junior students in programming, mathematics, and English.
-
+      Tutored junior students in programming, mathematics, and English. 
   
+  - time: 2018-2020
+    role: Volunteer 
+    company: Jerusalem Municipality 
+    details: |
+      As part of my scholarship, I had the privilege of visiting Holocaust survivors in Jerusalem. 
