@@ -26,9 +26,9 @@ education:
     university: Sha'alvim
     
 interests:
-   -hobby: Brewing
-   -hobby: Philosophy
-   -hobby: Bouldering 
+   - hobby: Brewing
+   - hobby: Philosophy
+   - hobby: Bouldering 
 
 skills:
   - category: Languages
