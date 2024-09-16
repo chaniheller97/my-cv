@@ -1,0 +1,9 @@
+{% assign interests = site.data.data.interests %}
+{% if interests %}
+<section class="interests">
+    <div class="title">Interests</div>
+    {% for interest in interests %}
+        <div class="idiom">{{interest}}</div>
+    {% endfor %}
+</section>
+{% endif %}
