@@ -24,6 +24,11 @@ education:
   - degree: Bagrut
     time: 2014-2016
     university: Sha'alvim
+    
+interests:
+   -brewing
+   -philosophy
+   -wall climbing
 
 skills:
   - category: Languages
@@ -50,15 +55,15 @@ skills:
       - GitLab CI/CD
 
 # Profile
-profile: |
-  I am a highly motivated and versatile Software Engineer with a proven track record of delivering high-quality solutions and leading technical teams. My journey began with leaving my home country at age 15 to pursue opportunities in Israel, demonstrating my independence and problem-solving capabilities. I excel in both individual contributions and team leadership roles, driven by a passion for technology and a commitment to continuous learning.
-# Experience
+profile: | 
+     Innovative Software Engineer with a strong background in full-stack development and leadership. Experienced in architecting and implementing complex systems, from REST APIs to microservices architectures. Adept at leveraging cutting-edge technologies like React, Node.js, and .NET to deliver high-performance solutions. Proven track record in agile methodologies and team leadership, with a keen ability to align technical solutions with business objectives. Passionate about brewing, philosophy, and wall climbing, bringing a well-rounded perspective to problem-solving and team dynamics.
+ # Experience
 experience:
   - role: Tech Lead and Scrum Master
     time: 2022-present
     company: Housetable
     details: |
-      At Housetable, I played a pivotal role in the development and launch of the company's websites, leading the initiative from concept to completion. My responsibilities included serving as the Scrum Master, where I facilitated agile practices and team collaboration, and as the Tech Lead, making crucial architectural and technical decisions. My role involved hands-on development with modern technologies and effective management of the deployment pipeline.
+        At Housetable, a fintech startup using AI for HELOC loans, I spearheaded the development and launch of the company's websites from concept to completion. Serving as both Scrum Master and Tech Lead, I facilitated agile practices and made key architectural decisions, including implementing a microservices architecture with React, Node.js, and PostgreSQL. I collaborated closely with the Product Manager to align technical solutions with business needs and reported directly to the CEO on project progress and strategic technology decisions. My hands-on work involved developing responsive interfaces, RESTful APIs, and integrating services for loan processing.  
     technologies_used: |
       React, TypeScript, Node.js, AWS, Agile methodologies, Next.js, React, AWS, GitLab CI/CD, Docker.
 
@@ -66,6 +71,6 @@ experience:
     time: 2020-2022
     company: IDF Unit 81
     details: |
-      As a Fullstack Developer in IDF Unit 81, I was responsible for designing and implementing a REST API to integrate a PLM system with various web applications. This API, developed using .NET 6, was rigorously tested with comprehensive unit tests and integrated into a CI/CD pipeline using Docker and GitLab runners. Additionally, I contributed to the development and maintenance of a React-based website, working across multiple frameworks and technologies.
+      As a Fullstack Developer in IDF Unit 81, I designed and implemented a robust REST API that seamlessly integrated a PLM system with various web applications. I leveraged .NET 6 to build this high-performance API, ensuring its reliability through rigorous testing with comprehensive unit tests. I spearheaded the API's integration into a CI/CD pipeline, utilizing Docker and GitLab runners to streamline deployment processes. Beyond the API, I took charge of developing and enhancing a React-based website, demonstrating my versatility by working adeptly across multiple frameworks and technologies. My proactive approach and technical expertise significantly improved system integration and user experience across the unit's digital platforms.
     technologies_used: |
       .NET, C, Angular, React, Docker.
