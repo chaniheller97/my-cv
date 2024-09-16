@@ -1,0 +1,9 @@
+.interests {
+    margin-bottom: 20px;
+    .title {
+        @include sub-header;
+    }
+    .interest {
+        @include body-text;
+    }
+}
