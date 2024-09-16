@@ -1,9 +1,11 @@
 .interests {
     margin-bottom: 20px;
+    display: flex;
     .title {
         @include sub-header;
     }
     .interest {
         @include body-text;
+
     }
 }
