@@ -1,6 +1,7 @@
 .interests {
     margin-bottom: 20px;
     display: flex;
+    flex-direction: column;
     .title {
         @include sub-header;
     }
