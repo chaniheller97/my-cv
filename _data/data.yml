@@ -65,7 +65,7 @@ experience:
     details: |
         At Housetable, a fintech startup using AI for HELOC loans, I spearheaded the development and launch of the company's websites from concept to completion. Serving as both Scrum Master and Tech Lead, I facilitated agile practices and made key architectural decisions, including implementing a microservices architecture with React, Node.js, and PostgreSQL. I collaborated closely with the Product Manager to align technical solutions with business needs and reported directly to the CEO on project progress and strategic technology decisions. My hands-on work involved developing responsive interfaces, RESTful APIs, and integrating services for loan processing.  
     technologies_used: |
-      React, TypeScript, Node.js, AWS, Agile methodologies, Next.js, React, AWS, GitLab CI/CD, Docker.
+      React, TypeScript, Node.js, Agile methodologies, Next.js, React, AWS, GitLab CI/CD, Docker.
 
   - role: Fullstack Developer
     time: 2020-2022
