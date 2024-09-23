@@ -12,9 +12,21 @@
                 <span class="time">{{exp.time}}</span>
             </div> 
             <div class="details">{{exp.details}}</div>
-            <p class="technologies">Technologies Used: {{exp.technologies_used}}</p>
+            {% if exp.achievements %}
+                <div class="achievements">
+                    <h3>Key Achievements:</h3>
+                    <ul>
+                    {% for achievement in exp.achievements %}
+                        <li>
+                            <strong>{{ achievement.title }}:</strong> 
+                            {{ achievement.description }}
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+            <p class="technologies"><strong>Technologies Used:</strong> {{exp.technologies_used}}</p>
         </div>
-       
     {% endfor %}
 </section>
 {% endif %}
