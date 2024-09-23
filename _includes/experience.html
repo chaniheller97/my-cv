@@ -4,28 +4,20 @@
     <h2 class="title">Experience</h2>
     {% for exp in experience %}
         <div class="experience-item">
-            <div class="role">
-                {{exp.role}}
-            </div>
-            <div class="company">
-                {{exp.company}} 
+            <div class="header">
+                <span class="role">{{exp.role}}</span>
+                <span class="company">{{exp.company}}</span>
                 <span class="time">{{exp.time}}</span>
-            </div> 
-            <div class="details">{{exp.details}}</div>
+            </div>
+            <p class="summary">{{exp.summary}}</p>
             {% if exp.achievements %}
-                <div class="achievements">
-                    <h3>Key Achievements:</h3>
-                    <ul>
-                    {% for achievement in exp.achievements %}
-                        <li>
-                            <strong>{{ achievement.title }}:</strong> 
-                            {{ achievement.description }}
-                        </li>
-                    {% endfor %}
-                    </ul>
-                </div>
+                <ul class="achievements">
+                {% for achievement in exp.achievements %}
+                    <li>{{ achievement }}</li>
+                {% endfor %}
+                </ul>
             {% endif %}
-            <p class="technologies"><strong>Technologies Used:</strong> {{exp.technologies_used}}</p>
+            <p class="technologies"><strong>Technologies:</strong> {{exp.technologies}}</p>
         </div>
     {% endfor %}
 </section>

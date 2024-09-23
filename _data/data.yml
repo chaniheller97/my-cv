@@ -58,34 +58,23 @@ skills:
 profile: | 
    Innovative and proactive Software Engineer with a proven track record in full-stack development and technical leadership. Skilled at architecting and implementing complex systems, from REST APIs to microservices architectures. Adept at leveraging cutting-edge technologies like React, Node.js, and .NET to deliver high-performance solutions. Demonstrates a keen ability to initiate and drive projects, aligning technical solutions with business objectives. Excels in agile methodologies and team leadership, consistently optimizing processes and fostering collaboration. Known for analytical problem-solving skills and a creative approach to overcoming technical challenges.
 # Experience
-# Experience
 experience:
   - role: Tech Lead and Scrum Master
     time: 2022-present
     company: Housetable
-    details: |
-        At Housetable, a fintech startup using AI for HELOC loans, I spearheaded the development and launch of the company's websites from concept to completion. Serving as both Scrum Master and Tech Lead, I facilitated agile practices and made key architectural decisions, including implementing a microservices architecture with React, Node.js, and PostgreSQL. I collaborated closely with the Product Manager to align technical solutions with business needs and reported directly to the CEO on project progress and strategic technology decisions. My hands-on work involved developing responsive interfaces, RESTful APIs, and integrating services for loan processing.
+    summary: Led development of fintech startup's websites using microservices architecture with React, Node.js, and PostgreSQL. Served as Scrum Master, aligning tech solutions with business needs.
     achievements:
-      - title: Improved Company Reach
-        description: Built and launched all of the company's websites, significantly expanding Housetable's online presence and customer accessibility.
-      - title: Streamlined Development Process
-        description: Implemented agile methodologies and microservices architecture, resulting in faster development cycles and improved scalability.
-      - title: Enhanced User Experience
-        description: Developed responsive interfaces and integrated loan processing services, leading to a more seamless customer journey and increased user satisfaction.
-    technologies_used: |
-      React, TypeScript, Node.js, Agile methodologies, Next.js, React, AWS, GitLab CI/CD, Docker.
+      - Built company websites, expanding online presence
+      - Implemented agile methodologies, improving development cycles
+      - Developed responsive interfaces, enhancing user experience
+    technologies: React, TypeScript, Node.js, Next.js, AWS, GitLab CI/CD, Docker
 
   - role: Fullstack Developer
     time: 2020-2022
     company: IDF Unit 81
-    details: |
-      As a Fullstack Developer in IDF Unit 81, I designed and implemented a robust REST API that seamlessly integrated a PLM system with various web applications. I leveraged .NET 6 to build this high-performance API, ensuring its reliability through rigorous testing with comprehensive unit tests. I spearheaded the API's integration into a CI/CD pipeline, utilizing Docker and GitLab runners to streamline deployment processes. Beyond the API, I took charge of developing and enhancing a React-based website, demonstrating my versatility by working adeptly across multiple frameworks and technologies. My proactive approach and technical expertise significantly improved system integration and user experience across the unit's digital platforms.
+    summary: Designed and implemented REST API integrating PLM system with web applications. Developed and enhanced React-based website, improving system integration across platforms.
     achievements:
-      - title: Revolutionized Processing Time
-        description: Helped build a system that reduced bureaucratic processing time from 12 hours to just 30 minutes, drastically improving operational efficiency.
-      - title: Enhanced System Integration
-        description: Designed and implemented a REST API that seamlessly connected PLM systems with web applications, improving data flow and accessibility.
-      - title: Optimized Deployment Processes
-        description: Integrated the API into a CI/CD pipeline using Docker and GitLab runners, significantly reducing deployment time and errors.
-    technologies_used: |
-      .NET, C, Angular, React, Docker.
+      - Reduced processing time from 12 hours to 30 minutes
+      - Seamlessly connected PLM systems with web applications
+      - Optimized deployment using CI/CD pipeline with Docker
+    technologies: .NET, C, Angular, React, Docker
