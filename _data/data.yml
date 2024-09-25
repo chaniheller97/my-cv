@@ -70,8 +70,7 @@ experience:
       - Led a cross-functional team of developers, fostering collaboration and driving Agile methodologies
       - Spearheaded security compliance initiatives, resulting in successful SOC2 certification
       - Developed and published a custom package on GitHub for use across multiple repositories, improving code reusability and maintenance
-      - Successfully integrated complex third-party APIs, enhancing platform functionality and user experience
-      - Established and maintained comprehensive documentation practices, ensuring up-to-date and accessible information for all team members and stakeholders
+      - Successfully integrated complex third-party APIs, enhancing platform functionality and user experience 
     technologies: React, TypeScript, Node.js, Next.js, AWS, GitLab CI/CD, Docker
 
   - role: Fullstack Developer
@@ -79,8 +78,7 @@ experience:
     company: IDF Unit 81
     summary: Designed and implemented REST API integrating PLM system with web applications. Developed and enhanced React-based website, improving system integration across platforms.
     achievements:
-      - Designed and implemented a REST API that seamlessly integrated PLM systems with web applications
-      - Optimized critical processes, reducing execution time from 12 hours to 30 minutes
+      - Designed and implemented a REST API that seamlessly integrated PLM systems with web applications 
       - Enhanced deployment processes using CI/CD pipeline with Docker
       - Troubleshot and resolved complex technology installation issues, including identifying and replacing corrupted DLLs
       - Spearheaded documentation efforts for legacy code, significantly improving knowledge transfer and onboarding for future developers
