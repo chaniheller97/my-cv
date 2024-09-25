@@ -1,5 +1,5 @@
 name: Yechiel Sulzbacher
-title: Software Engineer
+title: Senior Backend Developer
 support_dark_mode: true
 
 # Sidebar
@@ -56,17 +56,22 @@ skills:
 
 # Profile
 profile: | 
-   Innovative and proactive Software Engineer with a proven track record in full-stack development and technical leadership. Skilled at architecting and implementing complex systems, from REST APIs to microservices architectures. Adept at leveraging cutting-edge technologies like React, Node.js, and .NET to deliver high-performance solutions. Demonstrates a keen ability to initiate and drive projects, aligning technical solutions with business objectives. Excels in agile methodologies and team leadership, consistently optimizing processes and fostering collaboration. Known for analytical problem-solving skills and a creative approach to overcoming technical challenges.
+   Experienced and innovative Senior Backend Developer with a strong track record in architecting and implementing complex systems. Proficient in designing scalable REST APIs, microservices architectures, and serverless solutions. Demonstrates expertise in .NET, Node.js, and AWS technologies. Proven ability to lead technical teams, drive project initiatives, and align solutions with business objectives. Excels in analytical problem-solving and optimizing system performance.
 # Experience
 experience:
   - role: Tech Lead and Scrum Master
     time: 2022-present
     company: Housetable
-    summary: Led development of fintech startup's websites using microservices architecture with React, Node.js, and PostgreSQL. Served as Scrum Master, aligning tech solutions with business needs.
+    summary: Led the development of a serverless, multi-tenant white-label platform from conception to production.
     achievements:
-      - Built company websites, expanding online presence
-      - Implemented agile methodologies, improving development cycles
-      - Developed responsive interfaces, enhancing user experience
+      - Architected and implemented scalable backend solutions using AWS services including Lambda, RDS, S3, API Gateway, and Cognito
+      - Designed robust database schemas and RESTful APIs to support multi-tenant architecture
+      - Implemented CI/CD pipelines, enhancing deployment efficiency and reliability
+      - Led a cross-functional team of developers, fostering collaboration and driving Agile methodologies
+      - Spearheaded security compliance initiatives, resulting in successful SOC2 certification
+      - Developed and published a custom package on GitHub for use across multiple repositories, improving code reusability and maintenance
+      - Successfully integrated complex third-party APIs, enhancing platform functionality and user experience
+      - Established and maintained comprehensive documentation practices, ensuring up-to-date and accessible information for all team members and stakeholders
     technologies: React, TypeScript, Node.js, Next.js, AWS, GitLab CI/CD, Docker
 
   - role: Fullstack Developer
@@ -74,7 +79,10 @@ experience:
     company: IDF Unit 81
     summary: Designed and implemented REST API integrating PLM system with web applications. Developed and enhanced React-based website, improving system integration across platforms.
     achievements:
-      - Reduced processing time from 12 hours to 30 minutes
-      - Seamlessly connected PLM systems with web applications
-      - Optimized deployment using CI/CD pipeline with Docker
+      - Designed and implemented a REST API that seamlessly integrated PLM systems with web applications
+      - Optimized critical processes, reducing execution time from 12 hours to 30 minutes
+      - Enhanced deployment processes using CI/CD pipeline with Docker
+      - Troubleshot and resolved complex technology installation issues, including identifying and replacing corrupted DLLs
+      - Spearheaded documentation efforts for legacy code, significantly improving knowledge transfer and onboarding for future developers
+
     technologies: .NET, C, Angular, React, Docker
