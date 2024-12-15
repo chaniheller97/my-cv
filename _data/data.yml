@@ -56,10 +56,10 @@ skills:
 
 # Profile
 profile: | 
-   Experienced and innovative Senior Backend Developer with a strong track record in architecting and implementing complex systems. Proficient in designing scalable REST APIs, microservices architectures, and serverless solutions. Demonstrates expertise in .NET, Node.js, and AWS technologies. Proven ability to lead technical teams, drive project initiatives, and align solutions with business objectives. Excels in analytical problem-solving and optimizing system performance.
+   Experienced and innovative Senior Fullstack Developer with a strong track record in architecting and implementing complex systems. Proficient in designing scalable REST APIs, microservices architectures, and serverless solutions. Demonstrates expertise in .NET, Node.js, and AWS technologies. Proven ability to lead technical teams, drive project initiatives, and align solutions with business objectives. Excels in analytical problem-solving and optimizing system performance.
 # Experience
 experience:
-  - role: Tech Lead and Scrum Master
+  - role: Fullstack Developer
     time: 2022-present
     company: Housetable
     summary: Led the development of a serverless, multi-tenant white-label platform from conception to production.
