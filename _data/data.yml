@@ -21,14 +21,11 @@ education:
   - degree: BSc in Computer Science
     time: 2017-2020
     university: Ashkelon College
-  - degree: Bagrut
-    time: 2014-2016
-    university: Sha'alvim
-    
+
 interests:
    - hobby: Brewing
    - hobby: Philosophy
-   - hobby: Bouldering 
+   - hobby: Bouldering
 
 skills:
   - category: Languages
@@ -41,7 +38,6 @@ skills:
       - CSS
       - HTML
       - SQL
-      - Batch
   - category: Frameworks
     skill:
       - .NET
@@ -56,7 +52,8 @@ skills:
 
 # Profile
 profile: | 
-   Experienced and innovative Senior Fullstack Developer with a strong track record in architecting and implementing complex systems. Proficient in designing scalable REST APIs, microservices architectures, and serverless solutions. Demonstrates expertise in .NET, Node.js, and AWS technologies. Proven ability to lead technical teams, drive project initiatives, and align solutions with business objectives. Excels in analytical problem-solving and optimizing system performance.
+   Innovative and results-driven Senior Fullstack Developer passionate about building scalable, secure, and user-centric software solutions. Adept at leading development teams, architecting backend solutions, and driving successful project delivery.
+
 # Experience
 experience:
   - role: Fullstack Developer
@@ -64,12 +61,13 @@ experience:
     company: Housetable
     summary: Led the development of a serverless, multi-tenant white-label platform from conception to production.
     achievements:
+      - Security & Compliance: Spearheaded security compliance efforts leading to SOC2 certification
+      - Code Reusability: Developed and published reusable custom packages, enhancing cross-repository maintainability by 30%
+      - Scalable Architecture: Built a multi-tenant platform leveraging AWS services for seamless scalability
       - Architected and implemented scalable backend solutions using AWS services including Lambda, RDS, S3, API Gateway, and Cognito
       - Designed robust database schemas and RESTful APIs to support multi-tenant architecture
       - Implemented CI/CD pipelines, enhancing deployment efficiency and reliability
       - Led a cross-functional team of developers, fostering collaboration and driving Agile methodologies
-      - Spearheaded security compliance initiatives, resulting in successful SOC2 certification
-      - Developed and published a custom package on GitHub for use across multiple repositories, improving code reusability and maintenance
       - Successfully integrated complex third-party APIs, enhancing platform functionality and user experience 
     technologies: React, TypeScript, Node.js, Next.js, AWS, GitLab CI/CD, Docker
 
@@ -82,5 +80,4 @@ experience:
       - Enhanced deployment processes using CI/CD pipeline with Docker
       - Troubleshot and resolved complex technology installation issues, including identifying and replacing corrupted DLLs
       - Spearheaded documentation efforts for legacy code, significantly improving knowledge transfer and onboarding for future developers
-
     technologies: .NET, C, Angular, React, Docker
