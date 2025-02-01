@@ -5,19 +5,26 @@
     {% for exp in experience %}
         <div class="experience-item">
             <div class="header">
-                <span class="role">{{exp.role}}</span>
-                <span class="company">{{exp.company}}</span>
-                <span class="time">{{exp.time}}</span>
+                <span class="role">{{ exp.role }}</span>
+                <span class="company">{{ exp.company }}</span>
+                <span class="time">{{ exp.time }}</span>
             </div>
-            <p class="summary">{{exp.summary}}</p>
+            <p class="summary">{{ exp.summary }}</p>
             {% if exp.achievements %}
                 <ul class="achievements">
                 {% for achievement in exp.achievements %}
-                    <li>{{ achievement }}</li>
+                    {% if achievement contains ':' %}
+                        {% assign parts = achievement | split: ':' %}
+                        <li>
+                            <strong>{{ parts[0] | strip }}:</strong> {{ parts[1] | strip }}
+                        </li>
+                    {% else %}
+                        <li>{{ achievement }}</li>
+                    {% endif %}
                 {% endfor %}
                 </ul>
             {% endif %}
-            <p class="technologies"><strong>Technologies:</strong> {{exp.technologies}}</p>
+            <p class="technologies"><strong>Technologies:</strong> {{ exp.technologies }}</p>
         </div>
     {% endfor %}
 </section>
