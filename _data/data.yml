@@ -8,8 +8,6 @@ contact:
   github: sulzy3
   linkedin: yechiel-sulzbacher
   phone: "+972547214663"
-  gitlab:
-  twitter:
   website: my-cv
 
 languages:
@@ -21,9 +19,6 @@ education:
   - degree: BSc in Computer Science
     time: 2017-2020
     university: Ashkelon College
-  - degree: Bagrut
-    time: 2014-2016
-    university: Sha'alvim
     
 interests:
    - hobby: Brewing
@@ -34,20 +29,18 @@ skills:
   - category: Languages
     skill:
       - C#
-      - C
       - JavaScript
       - TypeScript
       - Python
-      - CSS
-      - HTML
       - SQL
+      - HTML
+      - CSS
   - category: Frameworks
     skill:
       - .NET
       - React
       - Angular
       - Chrome Extensions
-      - Jekyll
   - category: DevOps
     skill:
       - Docker
@@ -55,35 +48,34 @@ skills:
 
 # Profile
 profile: | 
-   Experienced and innovative Senior Fullstack Developer with a strong track record in architecting and implementing complex systems. Proficient in designing scalable REST APIs, microservices architectures, and serverless solutions. Demonstrates expertise in .NET, Node.js, and AWS technologies. Proven ability to lead technical teams, drive project initiatives, and align solutions with business objectives. Excels in analytical problem-solving and optimizing system performance.
+   Experienced and innovative Senior Fullstack Developer with a strong track record of designing scalable systems, architecting complex solutions, and driving technical projects from inception to delivery. Adept at leading development teams, fostering collaboration, and aligning solutions with business goals.
+
 # Experience
 experience:
   - role: Fullstack Developer
     time: 2022-present
     company: Housetable
-    summary: Led the development of a serverless, multi-tenant white-label platform from conception to production.
+    summary: Led the development of a serverless, multi-tenant white-label platform from inception to production.
     achievements:
       - category: Security & Compliance
-        description: Spearheaded security compliance efforts leading to SOC2 certification
+        description: Spearheaded SOC2 certification efforts, ensuring platform security and compliance
       - category: Code Reusability
-        description: Developed and published reusable custom packages, enhancing cross-repository maintainability by 30%
+        description: Developed reusable packages, improving code maintainability across repositories
       - category: Scalable Architecture
-        description: Built a multi-tenant platform leveraging AWS services for seamless scalability
-      - description: Architected and implemented scalable backend solutions using AWS services including Lambda, RDS, S3, API Gateway, and Cognito
-      - description: Designed robust database schemas and RESTful APIs to support multi-tenant architecture
-      - description: Implemented CI/CD pipelines, enhancing deployment efficiency and reliability
-      - description: Led a cross-functional team of developers, fostering collaboration and driving Agile methodologies
-      - description: Successfully integrated complex third-party APIs, enhancing platform functionality and user experience 
+        description: Built multi-tenant backend architecture leveraging AWS (Lambda, RDS, S3, API Gateway)
+      - description: Designed robust database schemas and APIs to support multi-tenant operations
+      - description: Implemented CI/CD pipelines, improving deployment efficiency and reducing errors
+      - description: Led cross-functional teams using Agile practices, enhancing collaboration
+      - description: Integrated third-party APIs for enhanced platform features and user experience 
     technologies: React, TypeScript, Node.js, Next.js, AWS, GitLab CI/CD, Docker
 
   - role: Fullstack Developer
     time: 2020-2022
     company: IDF Unit 81
-    summary: Designed and implemented REST API integrating PLM system with web applications. Developed and enhanced React-based website, improving system integration across platforms.
+    summary: Built and optimized software solutions, enhancing system integration and performance.
     achievements:
-      - description: Designed and implemented a REST API that seamlessly integrated PLM systems with web applications 
-      - description: Enhanced deployment processes using CI/CD pipeline with Docker
-      - description: Troubleshot and resolved complex technology installation issues, including identifying and replacing corrupted DLLs
-      - description: Spearheaded documentation efforts for legacy code, significantly improving knowledge transfer and onboarding for future developers
-
+      - description: Developed REST APIs for seamless integration with PLM systems 
+      - description: Enhanced deployment processes by setting up CI/CD pipelines using Docker
+      - description: Resolved critical technology issues, including corrupted DLL replacements
+      - description: Documented and refactored legacy code, improving knowledge transfer and maintainability
     technologies: .NET, C, Angular, React, Docker
