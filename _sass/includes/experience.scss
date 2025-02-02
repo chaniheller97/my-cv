@@ -13,12 +13,12 @@
             margin-bottom: 0.5rem;
             
             .role {
-                @include sub-header;
+                @include body-text;
                 font-weight: bold;
             }
             .company {
-                @include body-text;
-                font-weight: bold;
+                @include sub-header;
+                font-weight: bold;               
             }
             .time {
                 @include body-text;

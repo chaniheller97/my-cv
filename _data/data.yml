@@ -63,10 +63,14 @@ experience:
         description: Developed reusable packages, improving code maintainability across repositories
       - category: Scalable Architecture
         description: Built multi-tenant backend architecture leveraging AWS (Lambda, RDS, S3, API Gateway)
-      - description: Designed robust database schemas and APIs to support multi-tenant operations
-      - description: Implemented CI/CD pipelines, improving deployment efficiency and reducing errors
-      - description: Led cross-functional teams using Agile practices, enhancing collaboration
-      - description: Integrated third-party APIs for enhanced platform features and user experience 
+      - category: Database Design
+        description: Designed robust database schemas and APIs to support multi-tenant operations
+      - category: CI/CD & Automation
+        description: Implemented CI/CD pipelines, improving deployment efficiency and reducing errors
+      - category: Team Leadership
+        description: Led cross-functional teams using Agile practices, enhancing collaboration
+      - category: Third-Party Integration
+        description: Integrated third-party APIs for enhanced platform features and user experience 
     technologies: React, TypeScript, Node.js, Next.js, AWS, GitLab CI/CD, Docker
 
   - role: Fullstack Developer
@@ -74,8 +78,12 @@ experience:
     company: IDF Unit 81
     summary: Built and optimized software solutions, enhancing system integration and performance.
     achievements:
-      - description: Developed REST APIs for seamless integration with PLM systems 
-      - description: Enhanced deployment processes by setting up CI/CD pipelines using Docker
-      - description: Resolved critical technology issues, including corrupted DLL replacements
-      - description: Documented and refactored legacy code, improving knowledge transfer and maintainability
+      - category: API Development
+        description: Developed REST APIs for seamless integration with PLM systems 
+      - category: Deployment Automation
+        description: Enhanced deployment processes by setting up CI/CD pipelines using Docker
+      - category: Problem Resolution
+        description: Resolved critical technology issues, including corrupted DLL replacements
+      - category: Code Maintenance
+        description: Documented and refactored legacy code, improving knowledge transfer and maintainability
     technologies: .NET, C, Angular, React, Docker
