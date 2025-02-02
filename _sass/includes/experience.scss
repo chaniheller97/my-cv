@@ -1,42 +1,41 @@
 .experience {
     .title {
         @include header;
-        margin-bottom: 1rem;  
+        margin-bottom: 1rem;
     }
     
     .experience-item {
-        margin-bottom: 1.25rem;  
+        margin-bottom: 1.25rem;
         
         .header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 0.25rem;  
-            gap: 0.5rem;  
+            margin-bottom: 0.25rem;
+            gap: 0.5rem;
+            width: 100%;
             
             .company-role {
                 display: flex;
                 align-items: center;
-                gap: 0.25rem;  
-                flex: 1;  
-                min-width: 0;
+                gap: 0.5rem;  
+                flex: 1;
+                white-space: nowrap;
+                overflow: hidden;
                 
                 .company {
                     @include sub-header;
                     font-weight: 600;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
                 
                 .role {
                     @include body-text;
                     font-weight: 500;
-                    overflow: hidden;  
-                    text-overflow: ellipsis; 
-                    
-                    &::before {
-                        content: "•";
-                        margin: 0 0.25rem; 
-                        color: var(--fg-color-title-sm);
-                    }
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
                 }
             }
             
@@ -44,31 +43,32 @@
                 @include body-text;
                 color: var(--fg-color-title-sm);
                 white-space: nowrap;
-                font-size: 0.85em;  
-                flex-shrink: 0;  
+                font-size: 0.85em;
+                flex-shrink: 0;
                 margin-left: auto;
+                min-width: fit-content;
             }
         }
         
         .summary {
             @include body-text;
-            margin-bottom: 0.5rem;  
-            line-height: 1.4;  
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
         }
         
         .achievements {
             list-style-type: none;
-            padding-left: 1rem; 
-            margin-bottom: 0.5rem;  
+            padding-left: 1rem;
+            margin-bottom: 0.5rem;
             
             li {
                 @include body-text;
-                margin-bottom: 0.25rem;  
+                margin-bottom: 0.25rem;
                 position: relative;
-                line-height: 1.3;  
+                line-height: 1.3;
                 
                 &::before {
-                    content: "•";  
+                    content: "•";
                     position: absolute;
                     left: -1rem;
                     color: var(--fg-color-title-sm);
@@ -79,10 +79,10 @@
         .technologies {
             @include body-text;
             font-style: italic;
-            margin-top: 0.5rem;  
-            padding-top: 0.25rem;  
+            margin-top: 0.5rem;
+            padding-top: 0.25rem;
             border-top: 1px solid var(--border-color, #eee);
-            font-size: 0.9em;  
+            font-size: 0.9em;
         }
     }
 }
@@ -91,21 +91,29 @@
 @media print {
     .experience {
         .experience-item {
+            page-break-inside: avoid;
+            
             .header {
-                page-break-inside: avoid;  // Prevent breaking header across pages
-                width: 100%;  // Ensure full width
+                display: flex !important;
+                flex-direction: row !important;
+                justify-content: space-between !important;
+                align-items: center !important;
+                flex-wrap: nowrap !important;
+                width: 100% !important;
                 
                 .company-role {
-                    max-width: 75%;  // Limit width to leave space for date
+                    flex: 1 1 auto !important;
+                    display: flex !important;
+                    flex-direction: row !important;
+                    min-width: 0;
+                    max-width: 80%;
                 }
                 
                 .time {
-                    min-width: max-content;  // Ensure date doesn't wrap
+                    flex: 0 0 auto !important;
+                    margin-left: 1rem !important;
                 }
             }
-            
-            /* Prevent page breaks within items */
-            page-break-inside: avoid;
         }
     }
 }
@@ -118,6 +126,10 @@
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 0.15rem;
+                
+                .company-role {
+                    max-width: 100%;
+                }
             }
         }
     }
