@@ -1,24 +1,23 @@
 .experience {
     .title {
         @include header;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;  
     }
     
     .experience-item {
-        margin-bottom: 2.5rem;
+        margin-bottom: 1.25rem;  
         
         .header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 0.75rem;
-            gap: 1rem;
+            margin-bottom: 0.25rem;  
+            gap: 0.5rem;  
             
             .company-role {
                 display: flex;
                 align-items: center;
-                gap: 0.5rem;
-                flex-wrap: wrap;
+                gap: 0.25rem;  
                 
                 .company {
                     @include sub-header;
@@ -31,7 +30,7 @@
                     
                     &::before {
                         content: "•";
-                        margin: 0 0.5rem;
+                        margin: 0 0.25rem; 
                         color: var(--fg-color-title-sm);
                     }
                 }
@@ -41,35 +40,31 @@
                 @include body-text;
                 color: var(--fg-color-title-sm);
                 white-space: nowrap;
-                font-size: 0.9em;
+                font-size: 0.85em;  
             }
         }
         
         .summary {
             @include body-text;
-            margin-bottom: 1rem;
-            line-height: 1.6;
+            margin-bottom: 0.5rem;  
+            line-height: 1.4;  
         }
         
         .achievements {
             list-style-type: none;
-            padding-left: 1.25rem;
-            margin-bottom: 1rem;
+            padding-left: 1rem; 
+            margin-bottom: 0.5rem;  
             
             li {
                 @include body-text;
-                margin-bottom: 0.5rem;
+                margin-bottom: 0.25rem;  
                 position: relative;
-                line-height: 1.5;
+                line-height: 1.3;  
                 
                 &::before {
-                    content: "→";  // Changed bullet to arrow
+                    content: "•";  
                     position: absolute;
-                    left: -1.25rem;
-                    color: var(--fg-color-title-sm);
-                }
-                
-                strong {
+                    left: -1rem;
                     color: var(--fg-color-title-sm);
                 }
             }
@@ -78,9 +73,10 @@
         .technologies {
             @include body-text;
             font-style: italic;
-            margin-top: 1rem;
-            padding-top: 0.75rem;
+            margin-top: 0.5rem;  
+            padding-top: 0.25rem;  
             border-top: 1px solid var(--border-color, #eee);
+            font-size: 0.9em;  
         }
     }
 }
@@ -91,11 +87,7 @@
             .header {
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 0.25rem;
-                
-                .time {
-                    font-size: 0.85em;
-                }
+                gap: 0.15rem;  
             }
         }
     }
