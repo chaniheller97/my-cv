@@ -18,6 +18,8 @@
                 display: flex;
                 align-items: center;
                 gap: 0.25rem;  
+                flex: 1;  
+                min-width: 0;
                 
                 .company {
                     @include sub-header;
@@ -27,6 +29,8 @@
                 .role {
                     @include body-text;
                     font-weight: 500;
+                    overflow: hidden;  
+                    text-overflow: ellipsis; 
                     
                     &::before {
                         content: "•";
@@ -41,6 +45,8 @@
                 color: var(--fg-color-title-sm);
                 white-space: nowrap;
                 font-size: 0.85em;  
+                flex-shrink: 0;  
+                margin-left: auto;
             }
         }
         
