@@ -1,64 +1,102 @@
 .experience {
     .title {
         @include header;
-        margin-bottom: 1.5rem;
-    }
-    .experience-item {
         margin-bottom: 2rem;
-
-        
+    }
+    
+    .experience-item {
+        margin-bottom: 2.5rem;
         
         .header {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            margin-bottom: 0.5rem;
-
-            .company-role{
+            margin-bottom: 0.75rem;
+            gap: 1rem;
+            
+            .company-role {
                 display: flex;
-                justify-content: flex-start;
                 align-items: center;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+                
+                .company {
+                    @include sub-header;
+                    font-weight: 600;
+                }
+                
+                .role {
+                    @include body-text;
+                    font-weight: 500;
+                    
+                    &::before {
+                        content: "•";
+                        margin: 0 0.5rem;
+                        color: var(--fg-color-title-sm);
+                    }
+                }
             }
             
-            .company {
-                @include sub-header;
-                font-weight: bold;               
-            }
-            .role {
-                @include body-text;
-                font-weight: bold;
-            }
             .time {
                 @include body-text;
                 color: var(--fg-color-title-sm);
+                white-space: nowrap;
+                font-size: 0.9em;
             }
         }
+        
         .summary {
             @include body-text;
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.6;
         }
+        
         .achievements {
             list-style-type: none;
-            padding-left: 1rem;
-            margin-bottom: 0.5rem;
+            padding-left: 1.25rem;
+            margin-bottom: 1rem;
             
             li {
                 @include body-text;
-                margin-bottom: 0.25rem;
+                margin-bottom: 0.5rem;
                 position: relative;
+                line-height: 1.5;
                 
                 &::before {
-                    content: "•";
+                    content: "→";  // Changed bullet to arrow
                     position: absolute;
-                    left: -1rem;
+                    left: -1.25rem;
+                    color: var(--fg-color-title-sm);
+                }
+                
+                strong {
                     color: var(--fg-color-title-sm);
                 }
             }
         }
+        
         .technologies {
             @include body-text;
             font-style: italic;
-            margin-top: 0.5rem;
+            margin-top: 1rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--border-color, #eee);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .experience {
+        .experience-item {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.25rem;
+                
+                .time {
+                    font-size: 0.85em;
+                }
+            }
         }
     }
 }
