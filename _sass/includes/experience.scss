@@ -87,13 +87,37 @@
     }
 }
 
+/* Print-specific styles */
+@media print {
+    .experience {
+        .experience-item {
+            .header {
+                page-break-inside: avoid;  // Prevent breaking header across pages
+                width: 100%;  // Ensure full width
+                
+                .company-role {
+                    max-width: 75%;  // Limit width to leave space for date
+                }
+                
+                .time {
+                    min-width: max-content;  // Ensure date doesn't wrap
+                }
+            }
+            
+            /* Prevent page breaks within items */
+            page-break-inside: avoid;
+        }
+    }
+}
+
+/* Mobile styles */
 @media (max-width: 768px) {
     .experience {
         .experience-item {
             .header {
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 0.15rem;  
+                gap: 0.15rem;
             }
         }
     }
