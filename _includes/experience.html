@@ -5,9 +5,9 @@
     {% for exp in experience %}
         <div class="experience-item">
             <div class="header">
-                <div>
-                    <span class="company" style="color: blue; font-weight: bold;">{{ exp.company }}</span>: 
-                    <span class="role" style="color: grey; font-weight: normal;">{{ exp.role }}</span>
+                <div class="company-role">
+                    <span class="company">{{ exp.company }}</span>: 
+                    <span class="role">{{ exp.role }}</span>
                 </div>
                 <span class="time">{{ exp.time }}</span>
             </div>

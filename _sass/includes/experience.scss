@@ -5,20 +5,28 @@
     }
     .experience-item {
         margin-bottom: 2rem;
+
+        
         
         .header {
             display: flex;
             justify-content: center;
             align-items: center;
             margin-bottom: 0.5rem;
+
+            .company-role{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
             
+            .company {
+                @include sub-header;
+                font-weight: bold;               
+            }
             .role {
                 @include body-text;
                 font-weight: bold;
-            }
-            .company {
-                @include header;
-                font-weight: bold;               
             }
             .time {
                 @include body-text;
