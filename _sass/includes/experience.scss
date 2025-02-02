@@ -8,8 +8,8 @@
         
         .header {
             display: flex;
-            justify-content: space-between;
-            align-items: baseline;
+            justify-content: center;
+            align-items: center;
             margin-bottom: 0.5rem;
             
             .role {
@@ -17,7 +17,7 @@
                 font-weight: bold;
             }
             .company {
-                @include sub-header;
+                @include header;
                 font-weight: bold;               
             }
             .time {
