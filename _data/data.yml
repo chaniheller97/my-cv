@@ -18,20 +18,25 @@ languages:
   - idiom: French (Fluent)
 
 education:
+  - degree: Bootcamp DevOps Engineer
+    time: 06/22-10/22
+    university: Develeap Education
   - degree: BSc in Computer Science
     time: 2018-2022
-    university: Merkaz Academi Lev
+    university: Jerusalem College of Technology
     
-interests:
-   - hobby: Sport
-   - hobby: Travelling
+certificates:
+   - hobby: AWS Solution Architect – Associate
+   - hobby: Certified Kubernetes Administrator
+   - hobby: HashiCorp Certified: Terraform Associate (003)
+   - hobby: GitOps at Scale certificate
 
 skills:
   - category: Cloud
     skill:
       - AWS
       - Azure
-      - Self Hosted
+      - Self-Hosted Solutions
 
   - category: DevOps Tools
     skill:
@@ -52,36 +57,36 @@ skills:
 
 # Profile
 profile: | 
-   Experienced and innovative DevOps Engineer, I combine deep technical expertise with a strategic approach to optimize cloud infrastructures, automate processes, and enhance team efficiency. Constantly exploring new technologies, I thrive on tackling complex challenges and enjoy sharing my knowledge to drive progress for the projects and teams I collaborate with
+   A highly skilled and innovative DevOps Engineer with a passion for cloud infrastructure, automation, and CI/CD pipelines. I specialize in optimizing development workflows, implementing GitOps methodologies, and ensuring system scalability and security. Continuously exploring emerging technologies, I thrive on solving complex challenges and driving efficiency for teams and projects.
 
 # Experience
 experience:
   - role: DevOps Engineer
     time: 2022-present
     company: Develeap
-    summary: Lead several internal projects
+    summary: Leading multiple internal projects, managing Kubernetes clusters, and implementing GitOps methodologies.
     achievements:
       - category: Kubernetes
-        description: Managing internal EKS Cluster
+        description:  Managed internal EKS clusters, ensuring scalability and resilience.
       - category: ArgoCD
-        description: Deployed several appliaction with ArgoCD using GitOps methodologie
+        description: Deployed multiple applications using GitOps methodologies, improving deployment efficiency.
       - category: Terraform
-        description: Built a dynamic EKS Cluster wwith several Helm Charts with terraform
-    technologies: .NET,  Azure Devops, Docker
+        description:  Designed a dynamic EKS cluster with Helm charts, ensuring fully automated infrastructure provisioning.
+    technologies: Terraform,  Kubernetes, ArgoCD, Helm
     
   - role: DevOps Engineer
     time: 2024-2025
     company: RRSystem
     summary: Designed and implemented a robust DevOps infrastructure for a .NET project hosted on an IIS server.
     achievements:
-      - category: Building CI/CD Process
-        description: Developed a CI/CD pipeline on Azure DevOps to automate deployments, enhancing speed and reliability. 
-      - category: Dockerization
-        description: Containerized each microservice to facilitate scalable and consistent Development and QA environments,
+      - category: CI/CD Automation
+        description: Developed a CI/CD pipeline in Azure DevOps, reducing deployment time and improving reliability.
+      - category: Containerization
+        description:  Dockerized all microservices, ensuring scalability and consistent development environments.
       - category: Git Strategy
-        description: Developed a tailored a Git strategy in the pipelines by using semantic version
-      - category: Team Leadership
-        description: Led the DevOps Team to built the whole infrastructure 
+        description: Implemented a semantic versioning strategy in Git to improve release management.
+      - category: Leadership
+        description: Led the DevOps team, overseeing infrastructure setup and process automation.
     technologies: Docker Compose, Powershell, .DotNet, Bash, Azure DevOps, Docker
 
   - role: DevOps Engineer
@@ -89,12 +94,12 @@ experience:
     company: XwinSys
     summary: Developed a comprehensive DevOps infrastructure that included several CI/CD pipelines for automating build, test, and deployment processes.
     achievements:
-      - category: CI/CD
-        description: Enhanced deployment processes by setting up CI/CD pipelines using Docker
+      - category: CI/CD Implementation
+        description: Set up CI/CD pipelines with Docker, streamlining deployments.
       - category: Git Strategy
-        description: Established versioning strategies and Git workflows to manage source code effectively while maintaining a clear history of changes.
+        description:  Established Git workflows, improving versioning and collaboration.
       - category: Problem Resolution
-        description: Resolved critical technology issues
+        description: Resolved critical technology issues, ensuring smooth operations.
       - category: Code Maintenance
         description: Documented and refactored legacy code, improving knowledge transfer and maintainability
     technologies: .NET,  Azure Devops, Docker
