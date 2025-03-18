@@ -26,10 +26,8 @@ education:
     university: Jerusalem College of Technology
     
 certificates:
-   - hobby: AWS Solution Architect – Associate
-   - hobby: Certified Kubernetes Administrator
-   - hobby: HashiCorp Certified: Terraform Associate
-   - hobby: GitOps at Scale certificate
+   - hobby: AWS Solution Architect – Associate, HashiCorp Certified: Terraform Associate
+   - hobby: Certified Kubernetes Administrator, GitOps at Scale certificate
 
 skills:
   - category: Cloud
