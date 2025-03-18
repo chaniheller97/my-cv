@@ -1,89 +1,100 @@
 name: Lejb Golovatyi
-title: Senior Fullstack Developer
+title: DevOps Engineer
 support_dark_mode: true
 
 # Sidebar
 contact:
-  email: yechielsul@gmail.com
-  github: sulzy3
-  linkedin: yechiel-sulzbacher
-  phone: "+972547214663"
+  email: golovatylejb@gmail.com
+  github: gologolo24
+  linkedin: lejb-golovatyi-1021511a0
+  phone: "+972584382327"
   website: my-cv
 
 languages:
+  - idiom: German (Native)
   - idiom: English (Fluent)
-  - idiom: Hebrew (Native)
-  - idiom: Dutch (Basic)
+  - idiom: Hebrew (Fluent)
+  - idiom: Russian (Fluent)
+  - idiom: French (Fluent)
 
 education:
   - degree: BSc in Computer Science
-    time: 2017-2020
-    university: Ashkelon College
+    time: 2018-2022
+    university: Merkaz Academi Lev
     
 interests:
-   - hobby: Brewing
-   - hobby: Philosophy
-   - hobby: Bouldering 
+   - hobby: Sport
+   - hobby: Travelling
 
 skills:
-  - category: Languages
+  - category: Cloud
     skill:
-      - C#
-      - JavaScript
-      - TypeScript
-      - Python
-      - SQL
-      - HTML
-      - CSS
-  - category: Frameworks
-    skill:
-      - .NET
-      - React
-      - Angular
-      - Chrome Extensions
-  - category: DevOps
+      - AWS
+      - Azure
+      - Self Hosted
+
+  - category: DevOps Tools
     skill:
       - Docker
-      - GitLab CI/CD
+      - Kubernetes
+      - Azure Devops
+      - Jenkins
+      - ArgoCD
+      - Terraform
+      - Helm
+      - Github Action
+      
+  - category: Script Language
+    skill:
+      - Bash
+      - Powershell
+      - Python
 
 # Profile
 profile: | 
-   Experienced and innovative Senior Fullstack Developer with a strong track record of designing scalable systems, architecting complex solutions, and driving technical projects from inception to delivery. Adept at leading development teams, fostering collaboration, and aligning solutions with business goals.
+   Experienced and innovative DevOps Engineer, I combine deep technical expertise with a strategic approach to optimize cloud infrastructures, automate processes, and enhance team efficiency. Constantly exploring new technologies, I thrive on tackling complex challenges and enjoy sharing my knowledge to drive progress for the projects and teams I collaborate with
 
 # Experience
 experience:
-  - role: Fullstack Developer
+  - role: DevOps Engineer
     time: 2022-present
-    company: Housetable
-    summary: Led the development of a serverless, multi-tenant white-label platform from inception to production.
+    company: Develeap
+    summary: Lead several internal projects
     achievements:
-      - category: Security & Compliance
-        description: Spearheaded SOC2 certification efforts, ensuring platform security and compliance
-      - category: Code Reusability
-        description: Developed reusable packages, improving code maintainability across repositories
-      - category: Scalable Architecture
-        description: Built multi-tenant backend architecture leveraging AWS (Lambda, RDS, S3, API Gateway)
-      - category: Database Design
-        description: Designed robust database schemas and APIs to support multi-tenant operations
-      - category: CI/CD & Automation
-        description: Implemented CI/CD pipelines, improving deployment efficiency and reducing errors
+      - category: Kubernetes
+        description: Managing internal EKS Cluster
+      - category: ArgoCD
+        description: Deployed several appliaction with ArgoCD using GitOps methodologie
+      - category: Terraform
+        description: Built a dynamic EKS Cluster wwith several Helm Charts with terraform
+    technologies: .NET,  Azure Devops, Docker
+    
+  - role: DevOps Engineer
+    time: 2024-2025
+    company: RRSystem
+    summary: Designed and implemented a robust DevOps infrastructure for a .NET project hosted on an IIS server.
+    achievements:
+      - category: Building CI/CD Process
+        description: Developed a CI/CD pipeline on Azure DevOps to automate deployments, enhancing speed and reliability. 
+      - category: Dockerization
+        description: Containerized each microservice to facilitate scalable and consistent Development and QA environments,
+      - category: Git Strategy
+        description: Developed a tailored a Git strategy in the pipelines by using semantic version
       - category: Team Leadership
-        description: Led cross-functional teams using Agile practices, enhancing collaboration
-      - category: Third-Party Integration
-        description: Integrated third-party APIs for enhanced platform features and user experience 
-    technologies: React, TypeScript, Node.js, Next.js, AWS, GitLab CI/CD, Docker
+        description: Led the DevOps Team to built the whole infrastructure 
+    technologies: Docker Compose, Powershell, .DotNet, Bash, Azure DevOps, Docker
 
-  - role: Fullstack Developer
-    time: 2020-2022
-    company: IDF Unit 81
-    summary: Built and optimized software solutions, enhancing system integration and performance.
+  - role: DevOps Engineer
+    time: 2022-2024
+    company: XwinSys
+    summary: Developed a comprehensive DevOps infrastructure that included several CI/CD pipelines for automating build, test, and deployment processes.
     achievements:
-      - category: API Development
-        description: Developed REST APIs for seamless integration with PLM systems 
-      - category: Deployment Automation
+      - category: CI/CD
         description: Enhanced deployment processes by setting up CI/CD pipelines using Docker
+      - category: Git Strategy
+        description: Established versioning strategies and Git workflows to manage source code effectively while maintaining a clear history of changes.
       - category: Problem Resolution
-        description: Resolved critical technology issues, including corrupted DLL replacements
+        description: Resolved critical technology issues
       - category: Code Maintenance
         description: Documented and refactored legacy code, improving knowledge transfer and maintainability
-    technologies: .NET, C, Angular, React, Docker
+    technologies: .NET,  Azure Devops, Docker
