@@ -21,6 +21,8 @@
 
         .university {
             @include body-text;
+            padding-right: 0 !important;
+            text-align: start !important;
         }
 
         .time {
