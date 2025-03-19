@@ -36,7 +36,6 @@ skills:
     skill:
       - AWS
       - Azure
-      - Self-Hosted Solutions
 
   - category: DevOps Tools
     skill:
@@ -100,6 +99,4 @@ experience:
         description:  Established Git workflows, improving versioning and collaboration.
       - category: Problem Resolution
         description: Resolved critical technology issues, ensuring smooth operations.
-      - category: Code Maintenance
-        description: Documented and refactored legacy code, improving knowledge transfer and maintainability
     technologies: .NET,  Azure Devops, Docker
