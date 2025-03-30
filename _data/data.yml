@@ -51,8 +51,7 @@ skills:
       
   - category: Script Language
     skill:
-      - Bash
-      - Powershell
+      - Bash, Powershell
       - Python
 
 # Profile
