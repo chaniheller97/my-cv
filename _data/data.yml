@@ -51,8 +51,8 @@ skills:
       
   - category: Script Language
     skill:
-      - Bash
       - Python
+      - Bash
 
 # Profile
 profile: | 
