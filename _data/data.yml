@@ -26,6 +26,7 @@ education:
     university: Jerusalem College of Technology
     
 certificates:
+   - hobby: AWS SAP
    - hobby: AWS SAA
    - hobby: CKA
    - hobby: HashiCorp Terraform Associate
