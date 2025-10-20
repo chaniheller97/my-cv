@@ -1,102 +1,82 @@
-name: חני גולוואתי
-title: הנדסת אדריכלות
+name: חני הלר
+title: אדריכלית ומעצבת פנים
 support_dark_mode: true
 
 # Sidebar
 contact:
   email: chaniheller97@gmail.com
-  github: gologolo24
-  linkedin: lejb-golovatyi-1021511a0
-  phone: "+972584382327"
+  phone: "+972542764051"
+  phone2: "+972525865814"
   website: my-cv
 
 languages:
-  - idiom: German (Native)
-  - idiom: English (Fluent)
-  - idiom: Hebrew (Fluent)
-  - idiom: Russian (Fluent)
-  - idiom: French (Fluent)
+  - idiom: עברית (שפת אם)
+  - idiom: אנגלית
 
 education:
-  - degree: Bootcamp DevOps Engineer
-    time: 06/22-10/22
-    university: Develeap Education
-  - degree: BSc in Computer Science
-    time: 2018-2022
-    university: Jerusalem College of Technology
-    
-certificates:
-   - hobby: AWS SAP
-   - hobby: AWS SAA
-   - hobby: CKA
-   - hobby: HashiCorp Terraform Associate
-   - hobby: GitOps at Scale certificate
+  - degree: הנדסאי אדריכלות ועיצוב פנים (תעודה מטעם מה"ט)
+    time: 2013-2014
+    university: המכללה החרדית להכשרה מקצועית, ירושלים
+    details:
+      - חומרי בניה
+      - פרטי בנין
+      - תחיקת הבניה (מדריך שימושי לתחיקת הבניה "דקל")
+      - אינסטלציה סניטרית
+      - חשמל תקשורת ותאורה
+      - חימום ומיזוג אויר
+      - אקוסטיקה
+      - הנדסה תאורית
+      - תורת הבניה (תהליכים וחומרים "טריואקס ציפר")
+
+courses:
+  - name: תולדות האדריכלות
+  - name: סטטיקה
+  - name: לימודי מבנים
+  - name: עיצוב ריהוט ופרטים
+  - name: עיצוב פנים
+  - name: שרטוט ממוחשב AutoCAD
+  - name: הדמיות ממוחשבות
+  - name: האקלים כמרכיב בתכנון
+  - name: יסודות העיצוב
+  - name: עקרונות התכנון אדריכלי
 
 skills:
-  - category: Cloud
+  - category: תוכנות שרטוט
     skill:
-      - AWS
-      - Azure
+      - AutoCAD
+      - Revit
+      - SketchUp
 
-  - category: DevOps Tools
+  - category: כישורים אישיים
     skill:
-      - Docker
-      - Kubernetes
-      - Azure Devops
-      - Jenkins
-      - ArgoCD
-      - Terraform
-      - Helm
-      - Github Action
-      
-  - category: Script Language
-    skill:
-      - Python
-      - Bash
+      - מוסר עבודה גבוה
+      - בעלת תחומי עניין מגוונים וידע כללי רב
+      - בעלת אחריות מרובה
+      - כושר ארגון מצוין
+      - עמידה בלוחות זמנים
+      - השקעה מרבית בתחום
+      - התעדכנות במתחדש בתחום
+      - אמינות
+      - יצירתיות
+      - זריזות
+      - יוזמתיות
 
 # Profile
-profile: | 
-   A highly skilled and innovative DevOps Engineer with a passion for cloud infrastructure, automation, and CI/CD pipelines. I specialize in optimizing development workflows, implementing GitOps methodologies, and ensuring system scalability and security. 
+profile: |
+   אדריכלית ומעצבת פנים בעלת ניסיון והכשרה מקצועית מטעם מה"ט. בעלת מוסר עבודה גבוה, תחומי עניין מגוונים וידע כללי רב. מתאפיינת באחריות מרובה, כושר ארגון מצוין ועמידה בלוחות זמנים. מתעדכנת במתחדש בתחום ומשקיעה מרבית בכל פרויקט.
 
 # Experience
 experience:
-  - role: DevOps Engineer
-    time: 2022-present
-    company: Develeap
-    summary: Leading multiple internal projects, managing Kubernetes clusters, and implementing GitOps methodologies.
-    achievements:
-      - category: Kubernetes
-        description:  Managed internal EKS clusters, ensuring scalability and resilience.
-      - category: ArgoCD
-        description: Deployed multiple applications using GitOps methodologies, improving deployment efficiency.
-      - category: Terraform
-        description:  Designed a dynamic EKS cluster with Helm charts, ensuring fully automated infrastructure provisioning.
-    technologies: Terraform,  Kubernetes, ArgoCD, Helm
-    
-  - role: DevOps Engineer
-    time: 2024-2025
-    company: RRSystem
-    summary: Designed and implemented a robust DevOps infrastructure for a .NET project hosted on an IIS server.
-    achievements:
-      - category: CI/CD Automation
-        description: Developed a CI/CD pipeline in Azure DevOps, reducing deployment time and improving reliability.
-      - category: Containerization
-        description:  Dockerized all microservices, ensuring scalability and consistent development environments.
-      - category: Git Strategy
-        description: Implemented a semantic versioning strategy in Git to improve release management.
-      - category: Leadership
-        description: Led the DevOps team, overseeing infrastructure setup and process automation.
-    technologies: Docker Compose, Powershell, .DotNet, Bash, Azure DevOps, Docker
+  - role: מנהלת מכון יופי וקוסמטיקה
+    time: 2013-2014
+    company: "מינה קוסמטיקה" ירושלים
+    summary: ניהול מכון יופי וקוסמטיקה במקביל ללימודי האדריכלות
 
-  - role: DevOps Engineer
-    time: 2022-2024
-    company: XwinSys
-    summary: Developed a comprehensive DevOps infrastructure that included several CI/CD pipelines for automating build, test, and deployment processes.
-    achievements:
-      - category: CI/CD Implementation
-        description: Set up CI/CD pipelines with Docker, streamlining deployments.
-      - category: Git Strategy
-        description:  Established Git workflows, improving versioning and collaboration.
-      - category: Problem Resolution
-        description: Resolved critical technology issues, ensuring smooth operations.
-    technologies: .NET,  Azure Devops, Docker
+  - role: מדריכה בקאמפ
+    time: 2010-2011
+    company: קאמפ קיץ
+    summary: הדרכת קבוצות ילדים בפעילויות קיץ
+
+personal_info:
+  birth_date: 3.9.1979
+  address: הקבלן 28, הר נוף, ירושלים
